@@ -1,9 +1,24 @@
-<p>detalle works!</p>
 
+<section class="d-flex justify-content-center">
     @if (peliculaSeleccionada == null) {
         <p>No se encontró la película.</p>
     } @else {
-        <h2>{{ peliculaSeleccionada.title }}</h2>
-        <p>{{ peliculaSeleccionada.overview }}</p>
-        <p>Duración: {{ peliculaSeleccionada.runtime }} minutos</p>
+
+        
+            <div class="card" style="width: 18rem;">
+              <img src="https://image.tmdb.org/t/p/w500/{{ peliculaSeleccionada.poster_path }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{ peliculaSeleccionada.title }}</h5>
+                <p class="card-text">{{ peliculaSeleccionada.overview }}</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{peliculaSeleccionada.vote_average}} - {{peliculaSeleccionada.vote_count}} votos</li>
+                <li class="list-group-item">{{peliculaSeleccionada.release_date}}</li>
+                <li class="list-group-item">{{peliculaSeleccionada.runtime}} minutos</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Agregar a mi lista</a>
+              </div>
+            </div>
     }
+</section>
