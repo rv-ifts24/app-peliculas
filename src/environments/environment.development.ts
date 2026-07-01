@@ -9,5 +9,6 @@ export const environment = {
 
     accessToken : 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMjA5NzM1OGI0YWU0YzYxNmU2YzRmMGIyZTBiM2E5YiIsIm5iZiI6MTc4MTQwMjkzOC4xODQsInN1YiI6IjZhMmUwZDNhYTUyODY5OTMzOGNmM2E3NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.d1Vi8-oqiv2PI1mUoT5iIjiJCCk8L-qgT83FpqPyCGo',
 
-
+    apiUrl: 'https://api.themoviedb.org/3',
+    imageUrl: 'https://image.tmdb.org/t/p',
 };

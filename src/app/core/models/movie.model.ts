@@ -11,6 +11,7 @@ export interface Genre {
   id: number;
   name: string;
 }
+
 export interface MovieListResponse {
   page: number;
   results: Movie[];
