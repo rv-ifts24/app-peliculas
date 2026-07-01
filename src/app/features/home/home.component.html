@@ -1,7 +1,7 @@
 <h2>Tendencias de hoy</h2>
 <div style="display: flex; overflow-x: auto; gap: 10px;">
   <div *ngFor="let movie of trending">
-    <a [routerLink]="['/movie', movie.id]">
+    <a [routerLink]="['/detalle', movie.id]">
       <img [src]="getPosterUrl(movie.poster_path)" [alt]="movie.title" width="120">
       <p>{{ movie.title }}</p>
     </a>
@@ -20,7 +20,7 @@
 <h2>Peliculas</h2>
 <div *ngIf="!loading && !errorMessage" style="display: flex; flex-wrap: wrap; gap: 10px;">
   <div *ngFor="let movie of movies">
-    <a [routerLink]="['/movie', movie.id]">
+    <a [routerLink]="['/detalle', movie.id]">
       <img [src]="getPosterUrl(movie.poster_path)" [alt]="movie.title" width="140">
       <h3>{{ movie.title }}</h3>
       <p>Puntaje: {{ movie.vote_average }}</p>
