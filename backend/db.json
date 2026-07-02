@@ -38,16 +38,23 @@
       "poster_path": "/uGww4UrU3316Mld4p30dgdM09Du.jpg",
       "release_date": "2026-06-10",
       "vote_average": 6.686,
-      "id": "hkl-dtEalRo"
+      "id": "KXgyc3DDxu0"
     },
     {
-      "movieId": 1081003,
-      "title": "Supergirl",
-      "poster_path": "/niSvU02l2BONH9ivubV6K1a5QiK.jpg",
-      "release_date": "2026-06-24",
-      "vote_average": 6.228,
-      "id": "_nHMqKzjXQY"
+      "movieId": 11012,
+      "title": "Damage",
+      "poster_path": "/alf3JOPP7EYP0iO24gwe5YfRnqo.jpg",
+      "release_date": "1992-12-02",
+      "vote_average": 6.586,
+      "id": "rzwIHwrODP8"
+    },
+    {
+      "movieId": 1084244,
+      "title": "Toy Story 5",
+      "poster_path": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+      "release_date": "2026-06-17",
+      "vote_average": 7.435,
+      "id": "qT_ET0FB2DE"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
